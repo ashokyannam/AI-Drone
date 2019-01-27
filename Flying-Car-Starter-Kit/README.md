@@ -1,4 +1,4 @@
-# FlyingCar-Starter-Kit
+# Flying-Car-Starter-Kit
 
 Starter kit for Flying Car. Based on Python 3.
 
@@ -64,7 +64,7 @@ This should activate the `fc` env, if not check back the previous step for accur
 
 Step 5: Download the [simulator here](https://github.com/udacity/FCND-Simulator-Releases/releases)
 
-Step 6: Now, start the simulator and run the backyard_flyer python scrip
+Step 6: Now, start the simulator and run the backyard_flyer python script
 
 ```
 python backyard_flyer.py
