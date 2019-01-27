@@ -25,7 +25,7 @@ Step 2: You'll have to manually add miniconda to the $PATH using
 Step 3: Create a conda env using,
 
   ```
-  conda env remove -n fcnd
+  conda env create -f environment.yml
   ```
 
 Note: If you run into any errors during the creation of the conda environment it might be likely that it's an
@@ -34,7 +34,7 @@ xcode setup issue.
 First, clean up the stale environment build using,
 
 ```
-conda env remove -n fcnd
+conda env remove -n fc
 ```
 
 and then rebuild it after 
@@ -42,7 +42,7 @@ and then rebuild it after
 xcode-select --install
 ```
 
-Check if the environment is created using, you should be able to see `fcnd` environment in the list
+Check if the environment is created using, you should be able to see `fc` environment in the list
 
 ```
 conda info --envs
@@ -56,18 +56,17 @@ conda clean -tp
 Step 4: Now active the conda environment,
 
 ```
-cd FCND-Term1-Starter-Kit
-source activate fcnd
+cd Flying-Car-Starter-Kit
+conda activate fc
 ```
 
-This should activate the `fcnd` env, if not check back the previous step for accurate environment creation.
+This should activate the `fc` env, if not check back the previous step for accurate environment creation.
 
 Step 5: Download the [simulator here](https://github.com/udacity/FCND-Simulator-Releases/releases)
 
 Step 6: Now, start the simulator and run the backyard_flyer python scrip
 
 ```
-git checkout solution
 python backyard_flyer.py
 ```
 
