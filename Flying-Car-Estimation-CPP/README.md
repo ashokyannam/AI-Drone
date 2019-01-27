@@ -15,7 +15,7 @@ cmake ..
 make
 ```
 
-3. You should now be able to run the simulator with `./CPPSim` and you should see a single quadcopter, falling down.
+3. You should now be able to run the simulator with `./CPPEstSim` and you should see a single quadcopter, falling down.
 
 
 ### Project Structure ###
