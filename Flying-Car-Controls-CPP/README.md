@@ -179,4 +179,4 @@ The specific performance metrics are as follows:
 
 ## Authors ##
 
-Thanks to Fotokite for the initial development of the project code and simulator.
+Thanks to Fotokite for the initial development of the project code and simulator. And thanks to Udacity for putting together this challenge.
