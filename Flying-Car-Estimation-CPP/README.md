@@ -22,7 +22,7 @@ make
 
 For this project, you will be interacting with a few more files than before.
 
- - The EKF is partially implemented in `QuadEstimatorEKF.cpp`
+ - The Extended Kalman Filter (EKF) is partially implemented in `QuadEstimatorEKF.cpp`
 
  - Parameters for tuning the EKF are in the parameter file `QuadEstimatorEKF.txt`
 
